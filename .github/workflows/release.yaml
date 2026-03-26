@@ -55,7 +55,7 @@ jobs:
         shell: bash
         run: |
           find . -type f -name 'Chart.yaml' | sed -r 's|/[^/]+$||' | sort | uniq | xargs -L 1 helm dep up
-          for d in `find ./src/* -type d -maxdepth 0 -not -name examples` ; do
+          for d in `find ./src/charts/* -type d -maxdepth 0 -not -name examples` ; do
             echo "$d"
             helm package "$d" -u -d dest
           done
