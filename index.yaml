@@ -8,10 +8,10 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.31.1
-    created: "2026-03-26T16:16:19.508602246Z"
+    created: "2026-03-26T16:25:49.790692128Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
-    digest: 3d9edbc4ec2eddd270b197502f5cc7ab5bbb49fe528499279b3b6b3abe13629d
+    digest: 621ebed344ea046faf43d8c93dedcfb91968ad6f6e742325d24e3a0ce1b81af2
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -38,10 +38,10 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v2.1.0
-    created: "2026-03-26T16:16:19.50928101Z"
+    created: "2026-03-26T16:25:49.79249112Z"
     description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
       and relay them as SNMP traps.
-    digest: c6d9c575833aae5f532bf1b7bfb45064e91eabd7a700564e7f745e897441bef1
+    digest: 9653c4c08b8b62d720ba6b4c26c4ff9b362ac316a7d935c001a4ef19c4736a00
     home: https://github.com/maxwo/snmp_notifier
     keywords:
     - prometheus
@@ -62,9 +62,9 @@ entries:
   jiralert:
   - apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-03-26T16:16:19.509870228Z"
+    created: "2026-03-26T16:25:49.79315414Z"
     description: A Helm chart for Kubernetes to install jiralert
-    digest: fc728dd10be631faacd3e46ab231a8754ff8d30af8a9af926f068b5c000ca432
+    digest: a5d6bde981a00af131366218f60dd3f96c86943e976f41c9d1fe9ecfe0fdd334
     home: https://github.com/prometheus-community/jiralert
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -97,7 +97,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.89.0
-    created: "2026-03-26T16:16:19.540885283Z"
+    created: "2026-03-26T16:25:49.824335219Z"
     dependencies:
     - condition: crds.enabled
       name: crds
@@ -123,7 +123,7 @@ entries:
       and Prometheus rules combined with documentation and scripts to provide easy
       to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
       Prometheus Operator.
-    digest: fa575a5b5601ea47a3b2b43846de68f59c9cf3b5f5f225861fe70817a56dbea2
+    digest: 19db487dba9450ec0da549ee719f6b39b543ee9aeda87df715b55cecec3e6ada
     home: https://github.com/prometheus-operator/kube-prometheus
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -169,9 +169,9 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.18.0
-    created: "2026-03-26T16:16:19.542228549Z"
+    created: "2026-03-26T16:25:49.825743232Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
-    digest: 9b7c897ceeee4c76a0c0cd9273b225341de4394d09e96f87a848e784c6145c49
+    digest: 67163b6c3935602c44d9dfe861971f0ddf961d1260e94701c6644c8c3d3778d3
     home: https://github.com/kubernetes/kube-state-metrics/
     keywords:
     - metric
@@ -198,9 +198,9 @@ entries:
   prom-label-proxy:
   - apiVersion: v2
     appVersion: v0.12.1
-    created: "2026-03-26T16:16:19.542953142Z"
+    created: "2026-03-26T16:25:49.826765334Z"
     description: A proxy that enforces a given label in a given PromQL query.
-    digest: b426399cf31b0a2d9f39d4d574034ce5f2bdff36d254cc931f5c6c14cb02272e
+    digest: 0a6521b65b85517aeba7daf8a4b15e4b02f353b48e83e7fbfc44fce4af51dbb8
     home: https://github.com/prometheus-community/prom-label-proxy
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -226,7 +226,7 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.10.0
-    created: "2026-03-26T16:16:19.549785798Z"
+    created: "2026-03-26T16:25:49.835098286Z"
     dependencies:
     - condition: alertmanager.enabled
       name: alertmanager
@@ -245,7 +245,7 @@ entries:
       repository: https://prometheus-community.github.io/helm-charts
       version: 3.6.*
     description: Prometheus is a monitoring system and time series database.
-    digest: 77408aea9a05a1946cb0c1194375be489bf98c3bad1a4cba6450da1feccaf1dd
+    digest: 72e6fc7baaa0e2f77f3f5b1740673bc63ce1d32371544047754519255fbe9943
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -282,9 +282,9 @@ entries:
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.12.0
-    created: "2026-03-26T16:16:19.550659165Z"
+    created: "2026-03-26T16:25:49.83675293Z"
     description: A Helm chart for k8s prometheus adapter
-    digest: 2f4ee50c0fa704dd79c71cd8831ea9d641ec08abda95a254a790504270642047
+    digest: 9791ca6dfe1b062c7473ffc5a6352f063d29b810a88c845dcae065d881573760
     home: https://github.com/kubernetes-sigs/prometheus-adapter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -311,9 +311,9 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.28.0
-    created: "2026-03-26T16:16:19.55191561Z"
+    created: "2026-03-26T16:25:49.838176032Z"
     description: Prometheus Blackbox Exporter
-    digest: c25271db0c90c27b69cb01b0917147bd8f5965c077624dc320d27412be322bc2
+    digest: 2b4e843a784d0c93ff1869da9b6474e36d93d39ef9d3aa3e3b1205edd520e8e4
     home: https://github.com/prometheus/blackbox_exporter
     keywords:
     - prometheus
@@ -344,9 +344,9 @@ entries:
   prometheus-cloudwatch-exporter:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2026-03-26T16:16:19.552595245Z"
+    created: "2026-03-26T16:25:49.839040178Z"
     description: A Helm chart for prometheus cloudwatch-exporter
-    digest: 715cdcbcde40b018ab8dce0c50454bc80ce50523a2fa658462380a8890c1a0f7
+    digest: c0e43d02f454ed93484e2e517a8a5dcd630d6d7798f1b454cb2cce603a0df629
     home: https://github.com/prometheus/cloudwatch_exporter
     keywords:
     - aws
@@ -372,9 +372,9 @@ entries:
   prometheus-conntrack-stats-exporter:
   - apiVersion: v2
     appVersion: v0.4.42
-    created: "2026-03-26T16:16:19.552944192Z"
+    created: "2026-03-26T16:25:49.839430228Z"
     description: A Helm chart for conntrack-stats-exporter
-    digest: 37004fcb0e746c0f989fc173efee9ddac71f6a0bf664716de4f4e5cb8beaeb0d
+    digest: 616d2cba9d6bfaa0f32731da18b9481413b08f1d8b1b6b14e61e521fe3a49f14
     home: https://github.com/jwkohnen/conntrack-stats-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -403,9 +403,9 @@ entries:
           url: https://github.com/prometheus/consul_exporter
     apiVersion: v2
     appVersion: v0.13.0
-    created: "2026-03-26T16:16:19.553385697Z"
+    created: "2026-03-26T16:25:49.839873777Z"
     description: A Helm chart for the Prometheus Consul Exporter
-    digest: 7a6bbaf9adc1e59c9313314e752239c606b2f9b24c1a41e65b0f710006fe1efb
+    digest: 0ef27c798229325f033bf71975053a4a9d95136e29aedb769b31db63da3a2b25
     home: https://github.com/prometheus/consul_exporter
     keywords:
     - metrics
@@ -429,9 +429,9 @@ entries:
   prometheus-couchdb-exporter:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-26T16:16:19.553739751Z"
+    created: "2026-03-26T16:25:49.840253668Z"
     description: A Helm chart to export the metrics from couchdb in Prometheus format.
-    digest: 4746c5467bd5bcd655166802ef06b7877a2b194a413de84f5303e4d4b5bdc966
+    digest: 6bb038aa427347f6c8747c77e0ca710d8d78fbf5b3757f375f25f4e5c4e4c02b
     home: https://github.com/gesellix/couchdb-prometheus-exporter
     keywords:
     - couchdb-exporter
@@ -453,9 +453,9 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.11.0
-    created: "2026-03-26T16:16:19.554102739Z"
+    created: "2026-03-26T16:25:49.840643897Z"
     description: Druid exporter to monitor druid metrics with Prometheus
-    digest: 313b4b6f4fd4729b71d5b70b202f9343e30524bf17bf6bcc0a5fa4f7475dfd3c
+    digest: c4c5f295c989890e43dc46df6094e42385ec74b4db7422be0b76acbd776f24f1
     home: https://github.com/opstree/druid-exporter
     icon: https://github.com/opstree/druid-exporter/blob/master/static/druid-exporter-logo.svg
     keywords:
@@ -481,9 +481,9 @@ entries:
   prometheus-elasticsearch-exporter:
   - apiVersion: v2
     appVersion: v1.10.0
-    created: "2026-03-26T16:16:19.554885389Z"
+    created: "2026-03-26T16:25:49.841470473Z"
     description: Elasticsearch stats exporter for Prometheus
-    digest: 5a7e74803188a2224aa0f672f03ef75d72f3e2cc33d695de286cbdb9609f1159
+    digest: 4d9d3c4205312b3758b7f1dceb381b83962571dfa69f9dc527af467683c80bca
     home: https://github.com/prometheus-community/elasticsearch_exporter
     keywords:
     - metrics
@@ -510,9 +510,9 @@ entries:
   prometheus-fastly-exporter:
   - apiVersion: v2
     appVersion: v10.2.0
-    created: "2026-03-26T16:16:19.555323891Z"
+    created: "2026-03-26T16:25:49.842049917Z"
     description: A Helm chart for the Prometheus Fastly Exporter
-    digest: 911ad58e3da0386e67ec9396f111d98187580db635fee7f51548b722b0100210
+    digest: bef750719ea0e10e96e2336e5e7f2f3952fd546de569f35814288976591e6adb
     home: https://github.com/fastly/fastly-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -530,9 +530,9 @@ entries:
   prometheus-ipmi-exporter:
   - apiVersion: v2
     appVersion: v1.10.1
-    created: "2026-03-26T16:16:19.55597988Z"
+    created: "2026-03-26T16:25:49.842948297Z"
     description: This is an IPMI exporter for Prometheus.
-    digest: 40fbd4e27c3eb130eff6954cdfc2a41028f42966301b438a89fa0a36c54b276d
+    digest: eab63ba19d2a894d05e1dd00872929793d24e5fd8883d66315e2f4c2602d2251
     home: https://github.com/prometheus-community/ipmi_exporter
     keywords:
     - metrics
@@ -550,9 +550,9 @@ entries:
   prometheus-json-exporter:
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2026-03-26T16:16:19.556613896Z"
+    created: "2026-03-26T16:25:49.843617749Z"
     description: Install prometheus-json-exporter
-    digest: 777b033efeb767039e0bfe99b55575912567dcdcb882ece056d960e1a9cfb0b1
+    digest: d616cd06a3b30b9b74c07cb1a0d781b6ee656f9853640155992b31f6c962b67e
     home: https://github.com/prometheus-community/json_exporter
     keywords:
     - metric
@@ -580,7 +580,7 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-kafka-exporter
     apiVersion: v2
     appVersion: v1.9.0
-    created: "2026-03-26T16:16:19.563715764Z"
+    created: "2026-03-26T16:25:49.850838276Z"
     dependencies:
     - condition: kafka.enabled
       name: kafka
@@ -588,7 +588,7 @@ entries:
       version: 32.4.3
     description: A Helm chart to export metrics from Kafka in Prometheus format using
       kafka_exporter from https://github.com/danielqsj/kafka_exporter
-    digest: 04c3a44c3fd0bce56fa26f8dc27652170a9d182634e54e35550568c7ae39b3a9
+    digest: f4f97fcca1bb4fe4fdc524059fe71220e043e952de387488a59a2159fc6a7b8a
     home: https://github.com/danielqsj/kafka_exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -616,9 +616,9 @@ entries:
   prometheus-memcached-exporter:
   - apiVersion: v2
     appVersion: v0.15.5
-    created: "2026-03-26T16:16:19.564172673Z"
+    created: "2026-03-26T16:25:49.851330988Z"
     description: Prometheus exporter for Memcached metrics
-    digest: ac36f4f8cdb6d0094bdb0cad59de6f9b3d878edf372523cab36f9b5854cc39e5
+    digest: cb223c2d5db8661ec155279a9ffae8076eb38f70ad42d79d64a000fc824a1088
     home: https://github.com/prometheus/memcached_exporter
     keywords:
     - prometheus
@@ -637,9 +637,9 @@ entries:
   prometheus-modbus-exporter:
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2026-03-26T16:16:19.5646877Z"
+    created: "2026-03-26T16:25:49.851997134Z"
     description: A Helm chart for prometheus-modbus-exporter
-    digest: dbab223942bb87912cc3c0352bab6d30385dcbbf1346ce635b54036325a68c34
+    digest: 311ec2ce67e8d517027b2ecbc9c658169b18b2229c2c61c03c24d00bb3915e93
     keywords:
     - modbus
     - modbus_exporter
@@ -658,9 +658,9 @@ entries:
   prometheus-mongodb-exporter:
   - apiVersion: v2
     appVersion: 0.49.0
-    created: "2026-03-26T16:16:19.565249166Z"
+    created: "2026-03-26T16:25:49.853384999Z"
     description: A Prometheus exporter for MongoDB metrics
-    digest: 2576999f5fee390b1b38d2a8012e56b77de34375b79d3b9709731c2f890ebbd7
+    digest: c4d149220a65ee7afb6c72b259d787c14ae4468575a81351d995cf2ff3d6bb38
     home: https://github.com/percona/mongodb_exporter
     keywords:
     - exporter
@@ -683,9 +683,9 @@ entries:
   prometheus-mysql-exporter:
   - apiVersion: v1
     appVersion: v0.19.0
-    created: "2026-03-26T16:16:19.566751066Z"
+    created: "2026-03-26T16:25:49.854396391Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
-    digest: bb59687cdca1043188856bdeb85cd7608e412c1d6d2ed6615ba9e7b7859c9751
+    digest: e62f74c736d2c58d93ae174b792048131294d76100deb2b4b81e9f3a4d0cc685
     home: https://github.com/prometheus/mysqld_exporter
     maintainers:
     - email: juan.chimienti@gmail.com
@@ -703,9 +703,9 @@ entries:
   prometheus-nats-exporter:
   - apiVersion: v1
     appVersion: 0.19.2
-    created: "2026-03-26T16:16:19.567193494Z"
+    created: "2026-03-26T16:25:49.854777223Z"
     description: A Helm chart for prometheus-nats-exporter
-    digest: 176398572042b707158df4b6a3cb44c0aeb5e8fb42888e5d28800e8b7e200704
+    digest: 96c8a605ccf5e58160358bdc6a4df1394e4d7a7587535cb7a4cf6d6f3a6d9a19
     home: https://github.com/nats-io/prometheus-nats-exporter
     keywords:
     - nats
@@ -736,14 +736,14 @@ entries:
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
     appVersion: 1.5.1
-    created: "2026-03-26T16:16:19.5708905Z"
+    created: "2026-03-26T16:25:49.85830467Z"
     dependencies:
     - condition: nginx.enabled
       name: nginx
       repository: https://charts.bitnami.com/bitnami
       version: 22.6.10
     description: A Helm chart for NGINX Prometheus Exporter
-    digest: fe620d2fa6d0f2641e2bd59642d48266275735768fe9bd92d4edf009a9528e3c
+    digest: f5f8f12419a8fc089433815d1c1af0b7ea35a47527b5653cc70d852ea617da13
     home: https://github.com/nginxinc/nginx-prometheus-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -773,9 +773,9 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 1.10.2
-    created: "2026-03-26T16:16:19.572506778Z"
+    created: "2026-03-26T16:25:49.860364543Z"
     description: A Helm chart for prometheus node-exporter
-    digest: 0e4933f3df0716a67bc5021f1fec69ba6b85e32dcb94c7beeeb1c6a11d51dbe8
+    digest: 8bbf7bec093f2efa616e2de785b5b0a011719a53a0e9980afb0646afc035daf3
     home: https://github.com/prometheus/node_exporter/
     icon: https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -809,9 +809,9 @@ entries:
           url: https://github.com/prometheus-operator/prometheus-operator
     apiVersion: v2
     appVersion: 0.90.1
-    created: "2026-03-26T16:16:19.574797653Z"
+    created: "2026-03-26T16:25:49.861599535Z"
     description: Prometheus Operator Admission Webhook
-    digest: a703c64471b46878984ef4dba1d4007f0c07b7a31c95fb7294f0e79d4351ab1f
+    digest: 6c28d38a78097700811cc8b094f7716a2974a2a1af3578d4a3b0f86fc62d9740
     home: https://github.com/prometheus-operator/prometheus-operator
     icon: https://github.com/prometheus-operator/prometheus-operator/raw/main/Documentation/logos/prometheus-operator-logo.png
     keywords:
@@ -845,14 +845,14 @@ entries:
           email: quentin.bisson@gmail.com
     apiVersion: v2
     appVersion: v0.90.1
-    created: "2026-03-26T16:16:19.591117043Z"
+    created: "2026-03-26T16:25:49.876870841Z"
     dependencies:
     - name: crds
       repository: ""
       version: 0.0.0
     description: 'A Helm chart that collects custom resource definitions (CRDs) from
       the Prometheus Operator, allowing for seamless integration with GitOps tools '
-    digest: 55e6ece29bdacabf463308cbc4bd07c9d2184beab46a00227dcc94415d62023c
+    digest: 361f2f0181ca7fec9e8d3ad115336ee27d03036dcb3f0859c4654c0304ef3d7d
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
     - prometheus
@@ -881,9 +881,9 @@ entries:
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: v0.12.0
-    created: "2026-03-26T16:16:19.591779823Z"
+    created: "2026-03-26T16:25:49.877553517Z"
     description: A Helm chart for prometheus pgbouncer-exporter
-    digest: 3035b6ae2f72308b55b9fcf201c710ce76a0fe632e7d1a5971301a668a8c947a
+    digest: 21d4fbeb74084e7b9b70505a60dc198decab958887c313d05d49fbd79bd49856
     home: https://github.com/prometheus-community/pgbouncer_exporter
     keywords:
     - pgbouncer
@@ -915,9 +915,9 @@ entries:
           email: pahli88@googlemail.com
     apiVersion: v2
     appVersion: v0.5.6
-    created: "2026-03-26T16:16:19.592640781Z"
+    created: "2026-03-26T16:25:49.87796668Z"
     description: A Helm chart for Prometheus Pingdom Exporter
-    digest: ec58f7ddd5364e9737ff11c7492d05c232fca9e928b4dd09b298c8ba81d04d73
+    digest: f35a9675bea4f08b32ecc0533d5a947281d852533e9c62d4212189d22767e954
     home: https://github.com/kokuwaio/pingdom-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -940,9 +940,9 @@ entries:
   prometheus-pingmesh-exporter:
   - apiVersion: v2
     appVersion: v1.2.2
-    created: "2026-03-26T16:16:19.594074458Z"
+    created: "2026-03-26T16:25:49.879093608Z"
     description: Prometheus Pingmesh Exporter
-    digest: 291df9e91539d2784c32bee2c8c096a5590d70c4e1fc97165a025a1457198da9
+    digest: 6c4bc79efc3e2e0fb21d08bf820bcc241d86ac921908f7c24f74334cc14e512d
     home: https://stack.kubeservice.cn/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -963,9 +963,9 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: v0.19.1
-    created: "2026-03-26T16:16:19.594848977Z"
+    created: "2026-03-26T16:25:49.879896149Z"
     description: A Helm chart for prometheus postgres-exporter
-    digest: bf90eac6717cea1979b8345041864f362e63b2b71fae410d04c226693c7c7119
+    digest: f91dfd43c2936a98128fe97f7d1e70e38e7b21a691c318e6dcc442a9be946e14
     home: https://github.com/prometheus-community/postgres_exporter
     keywords:
     - postgresql
@@ -996,9 +996,9 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v1.11.2
-    created: "2026-03-26T16:16:19.595730827Z"
+    created: "2026-03-26T16:25:49.880786344Z"
     description: A Helm chart for prometheus pushgateway
-    digest: 48d0037e180f3da502043b55d75c68c46a26ee19474644dd3c539fb760c061dc
+    digest: 104dc3a572ab1dcbb3364cf989d2675a517088297b6d421ec6c8b1d1a976e806
     home: https://github.com/prometheus/pushgateway
     keywords:
     - pushgateway
@@ -1023,9 +1023,9 @@ entries:
   prometheus-rabbitmq-exporter:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2026-03-26T16:16:19.596347727Z"
+    created: "2026-03-26T16:25:49.88142581Z"
     description: Rabbitmq metrics exporter for prometheus
-    digest: a05cda2b8b04459ffd4f0601e3c5b19d15e614398fe8a5de3603d4ee38ce907d
+    digest: ebaea98949ee0af64593c1dd44ec051722c8cecc18dd0254c3963683cbea0697
     home: https://github.com/kbudde/rabbitmq_exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     maintainers:
@@ -1050,9 +1050,9 @@ entries:
   prometheus-redis-exporter:
   - apiVersion: v2
     appVersion: v1.82.0
-    created: "2026-03-26T16:16:19.596970697Z"
+    created: "2026-03-26T16:25:49.882079422Z"
     description: Prometheus exporter for Redis metrics
-    digest: cff8970c54d73576b756f6d3fec8fd61624e36c3b66ba7473e2fdabc11faf826
+    digest: 7be88e8c84e0560f76ffd3d76df1dbca7e7f4cea22f2f38689e6651c4ae05a36
     home: https://github.com/oliver006/redis_exporter
     keywords:
     - prometheus
@@ -1074,9 +1074,9 @@ entries:
   prometheus-smartctl-exporter:
   - apiVersion: v2
     appVersion: v0.14.0
-    created: "2026-03-26T16:16:19.597636771Z"
+    created: "2026-03-26T16:25:49.882790372Z"
     description: A Helm chart for Kubernetes
-    digest: 79c96bede15895904c16a99c9a653f01b0500e1ec4642778077ef910cf20b931
+    digest: be09d99f519c6570004d933895b6a7d32507fd1baa0ec6de465d55e799dc0ebb
     home: https://github.com/prometheus-community/smartctl_exporter
     maintainers:
     - name: kfox1111
@@ -1094,9 +1094,9 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: v0.30.1
-    created: "2026-03-26T16:16:19.59835224Z"
+    created: "2026-03-26T16:25:49.88447061Z"
     description: Prometheus SNMP Exporter
-    digest: 633084587fd70e5d6568e79b608bdc0826cbbe8a58b60e8d18a1b1d8c1c9e6d1
+    digest: 39f2cae4a1de7a1cecf25a052aeaece14a9627942def0fa38e2b8e7cb8d471a1
     home: https://github.com/prometheus/snmp_exporter
     keywords:
     - prometheus
@@ -1118,9 +1118,9 @@ entries:
   prometheus-sql-exporter:
   - apiVersion: v2
     appVersion: v0.8
-    created: "2026-03-26T16:16:19.599932364Z"
+    created: "2026-03-26T16:25:49.885137056Z"
     description: Prometheus SQL Exporter
-    digest: 96de270995f181baff3364a576414e0aa87e6fee561b2b679718b5d822b63ca8
+    digest: 570b0b2205282e7f665d0da9f2597f844c70f987a381928aff422b70ea1b2ed4
     home: https://github.com/justwatchcom/sql_exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -1141,9 +1141,9 @@ entries:
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: v0.18.0
-    created: "2026-03-26T16:16:19.600769847Z"
+    created: "2026-03-26T16:25:49.885799134Z"
     description: Stackdriver exporter for Prometheus
-    digest: b58c69eaece3aeb9ef7915a5e2cb3f9cb12f317701502c83e3ca332cb91b004f
+    digest: 2c5f12adfceddb491d7bb5f9a48a31ae865399054092c5ae754fd724c2bcd144
     home: https://www.stackdriver.com/
     keywords:
     - metrics
@@ -1167,9 +1167,9 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
     apiVersion: v2
     appVersion: v0.28.0
-    created: "2026-03-26T16:16:19.601454359Z"
+    created: "2026-03-26T16:25:49.886393726Z"
     description: A Helm chart for prometheus stats-exporter
-    digest: 938da213fc01b733469516eb09169aebf0db75df59638009109610e81c24f932
+    digest: 4a9cf0661e8e30f277464eb01c090da3b31511839f2ec8486d2744d1b640a5a0
     home: https://github.com/prometheus/statsd_exporter
     keywords:
     - statsd
@@ -1188,9 +1188,9 @@ entries:
   prometheus-systemd-exporter:
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2026-03-26T16:16:19.602076277Z"
+    created: "2026-03-26T16:25:49.887046758Z"
     description: A Helm chart for prometheus systemd-exporter
-    digest: fc4657b00d0ccd228ea8ca9097619295729d7b48961f36505286ba0249221480
+    digest: cd5c281f042f963f65c78af35ae6dc851691edbaf3fcb2d104c09d718a8c701c
     home: https://github.com/prometheus-community/systemd_exporter
     maintainers:
     - email: 19607336+maxime1907@users.noreply.github.com
@@ -1206,9 +1206,9 @@ entries:
   prometheus-to-sd:
   - apiVersion: v1
     appVersion: v0.9.2
-    created: "2026-03-26T16:16:19.602306324Z"
+    created: "2026-03-26T16:25:49.887324798Z"
     description: Scrape metrics stored in prometheus format and push them to the Stackdriver
-    digest: 20bdafc6b0bd400bdda528de411bab5306f32eda32bb7473c3fbb575d1794777
+    digest: 35c693c2b36dd706614bf0414b3e636a722d9105af35057759faf9b80c60ca81
     home: https://github.com/GoogleCloudPlatform/k8s-stackdriver/tree/master/prometheus-to-sd
     keywords:
     - prometheus
@@ -1224,9 +1224,9 @@ entries:
   prometheus-windows-exporter:
   - apiVersion: v2
     appVersion: 0.31.5
-    created: "2026-03-26T16:16:19.603090137Z"
+    created: "2026-03-26T16:25:49.888099206Z"
     description: A Helm chart for prometheus windows-exporter
-    digest: 9c355dd2cd6bb7dba7047abcea8b438293bfb17e238b5f684b190c2db03120ac
+    digest: a9af795757fbbc87eb94f9f5449a1b29718a4322019e24ffb13d871f7d53a2db
     home: https://github.com/prometheus-community/windows_exporter/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -1248,9 +1248,9 @@ entries:
   prometheus-yet-another-cloudwatch-exporter:
   - apiVersion: v2
     appVersion: v0.63.0
-    created: "2026-03-26T16:16:19.603656651Z"
+    created: "2026-03-26T16:25:49.888721189Z"
     description: Yace - Yet Another CloudWatch Exporter
-    digest: fdb2b76d06d58e86544e2536b2fa0e1549388e14f5230e78240341ec54958c2d
+    digest: 0570cd4e967da9c7f4aa2db129c20020d0cdbd1180318824e384b8bce8cda2da
     home: https://github.com/prometheus-community/helm-charts
     keywords:
     - aws
@@ -1273,4 +1273,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-yet-another-cloudwatch-exporter-0.42.1.tgz
     version: 0.42.1
-generated: "2026-03-26T16:16:19.507311489Z"
+generated: "2026-03-26T16:25:49.78943647Z"
