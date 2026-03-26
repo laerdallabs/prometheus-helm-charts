@@ -8,10 +8,10 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.31.1
-    created: "2026-03-26T16:25:49.790692128Z"
+    created: "2026-03-26T17:12:38.466399727Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
-    digest: 621ebed344ea046faf43d8c93dedcfb91968ad6f6e742325d24e3a0ce1b81af2
+    digest: 70776607b79001d7e7fbd2895be9b820326544935fc7bc951cc2f76d93911c4f
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -29,7 +29,7 @@ entries:
     - https://github.com/prometheus/alertmanager
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/alertmanager-1.34.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/alertmanager-1.34.1.tgz
     version: 1.34.1
   alertmanager-snmp-notifier:
   - annotations:
@@ -38,10 +38,10 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v2.1.0
-    created: "2026-03-26T16:25:49.79249112Z"
+    created: "2026-03-26T17:12:38.467880777Z"
     description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
       and relay them as SNMP traps.
-    digest: 9653c4c08b8b62d720ba6b4c26c4ff9b362ac316a7d935c001a4ef19c4736a00
+    digest: a0818494e6364b07fc17b121cf79997f6465c2af892b0e9160212ece2de05202
     home: https://github.com/maxwo/snmp_notifier
     keywords:
     - prometheus
@@ -57,14 +57,14 @@ entries:
     - https://github.com/maxwo/snmp_notifier
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/alertmanager-snmp-notifier-2.1.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/alertmanager-snmp-notifier-2.1.0.tgz
     version: 2.1.0
   jiralert:
   - apiVersion: v2
     appVersion: v1.3.0
-    created: "2026-03-26T16:25:49.79315414Z"
+    created: "2026-03-26T17:12:38.468569099Z"
     description: A Helm chart for Kubernetes to install jiralert
-    digest: a5d6bde981a00af131366218f60dd3f96c86943e976f41c9d1fe9ecfe0fdd334
+    digest: 567b01237c2ebc5178eb517ac7a006f0296977ff5567445dfa667c1d75483747
     home: https://github.com/prometheus-community/jiralert
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -82,7 +82,7 @@ entries:
     name: jiralert
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/jiralert-1.8.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/jiralert-1.8.2.tgz
     version: 1.8.2
   kube-prometheus-stack:
   - annotations:
@@ -97,7 +97,7 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.89.0
-    created: "2026-03-26T16:25:49.824335219Z"
+    created: "2026-03-26T17:12:38.497548964Z"
     dependencies:
     - condition: crds.enabled
       name: crds
@@ -123,7 +123,7 @@ entries:
       and Prometheus rules combined with documentation and scripts to provide easy
       to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
       Prometheus Operator.
-    digest: 19db487dba9450ec0da549ee719f6b39b543ee9aeda87df715b55cecec3e6ada
+    digest: 2b4e8b74747a13f445e21ba0827f9286e1891f077cd0b443cc11b354b5f07a3c
     home: https://github.com/prometheus-operator/kube-prometheus
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -159,7 +159,7 @@ entries:
     - https://github.com/prometheus-operator/kube-prometheus
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/kube-prometheus-stack-82.14.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/kube-prometheus-stack-82.14.1.tgz
     version: 82.14.1
   kube-state-metrics:
   - annotations:
@@ -169,9 +169,9 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.18.0
-    created: "2026-03-26T16:25:49.825743232Z"
+    created: "2026-03-26T17:12:38.499901992Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
-    digest: 67163b6c3935602c44d9dfe861971f0ddf961d1260e94701c6644c8c3d3778d3
+    digest: 77dec7eb00fa83bb1722d5ce0fa8cf048c83593e2f39d452c365bbc6b57f8483
     home: https://github.com/kubernetes/kube-state-metrics/
     keywords:
     - metric
@@ -193,14 +193,14 @@ entries:
     - https://github.com/kubernetes/kube-state-metrics/
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/kube-state-metrics-7.2.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/kube-state-metrics-7.2.2.tgz
     version: 7.2.2
   prom-label-proxy:
   - apiVersion: v2
     appVersion: v0.12.1
-    created: "2026-03-26T16:25:49.826765334Z"
+    created: "2026-03-26T17:12:38.500646288Z"
     description: A proxy that enforces a given label in a given PromQL query.
-    digest: 0a6521b65b85517aeba7daf8a4b15e4b02f353b48e83e7fbfc44fce4af51dbb8
+    digest: 84cc56465d266043408a8bc5dfff0162a93a9997e9b6fa5a4be67c126986ad98
     home: https://github.com/prometheus-community/prom-label-proxy
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -214,7 +214,7 @@ entries:
     name: prom-label-proxy
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prom-label-proxy-0.18.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prom-label-proxy-0.18.2.tgz
     version: 0.18.2
   prometheus:
   - annotations:
@@ -226,7 +226,7 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.10.0
-    created: "2026-03-26T16:25:49.835098286Z"
+    created: "2026-03-26T17:12:38.508379138Z"
     dependencies:
     - condition: alertmanager.enabled
       name: alertmanager
@@ -245,7 +245,7 @@ entries:
       repository: https://prometheus-community.github.io/helm-charts
       version: 3.6.*
     description: Prometheus is a monitoring system and time series database.
-    digest: 72e6fc7baaa0e2f77f3f5b1740673bc63ce1d32371544047754519255fbe9943
+    digest: 763fdef7007602568f27c2c2cbb6b2d2882326c0c5279d3a11baaa38760a20c9
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -277,14 +277,14 @@ entries:
     - https://github.com/kubernetes/kube-state-metrics
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-28.14.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-28.14.1.tgz
     version: 28.14.1
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.12.0
-    created: "2026-03-26T16:25:49.83675293Z"
+    created: "2026-03-26T17:12:38.509237766Z"
     description: A Helm chart for k8s prometheus adapter
-    digest: 9791ca6dfe1b062c7473ffc5a6352f063d29b810a88c845dcae065d881573760
+    digest: 54dc251c0a769f47e9b97c8e41f733f01299da6e396238c65268898f7ad7b358
     home: https://github.com/kubernetes-sigs/prometheus-adapter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -306,14 +306,14 @@ entries:
     - https://github.com/kubernetes/charts
     - https://github.com/kubernetes-sigs/prometheus-adapter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-adapter-5.3.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-adapter-5.3.0.tgz
     version: 5.3.0
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.28.0
-    created: "2026-03-26T16:25:49.838176032Z"
+    created: "2026-03-26T17:12:38.510366658Z"
     description: Prometheus Blackbox Exporter
-    digest: 2b4e843a784d0c93ff1869da9b6474e36d93d39ef9d3aa3e3b1205edd520e8e4
+    digest: 9a9f7e09941a9e5e9735341bc989b31a8a62d2218bd50e48b588b9e4ab05396b
     home: https://github.com/prometheus/blackbox_exporter
     keywords:
     - prometheus
@@ -339,14 +339,14 @@ entries:
     - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-blackbox-exporter-11.9.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-blackbox-exporter-11.9.1.tgz
     version: 11.9.1
   prometheus-cloudwatch-exporter:
   - apiVersion: v1
     appVersion: 0.16.0
-    created: "2026-03-26T16:25:49.839040178Z"
+    created: "2026-03-26T17:12:38.51102294Z"
     description: A Helm chart for prometheus cloudwatch-exporter
-    digest: c0e43d02f454ed93484e2e517a8a5dcd630d6d7798f1b454cb2cce603a0df629
+    digest: 6500baaed5ad4fb171f0a83d1a92a9f5cdd8847f42e8b0748b264915db693b49
     home: https://github.com/prometheus/cloudwatch_exporter
     keywords:
     - aws
@@ -367,14 +367,14 @@ entries:
     sources:
     - https://github.com/prometheus/cloudwatch_exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-cloudwatch-exporter-0.28.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-cloudwatch-exporter-0.28.1.tgz
     version: 0.28.1
   prometheus-conntrack-stats-exporter:
   - apiVersion: v2
     appVersion: v0.4.42
-    created: "2026-03-26T16:25:49.839430228Z"
+    created: "2026-03-26T17:12:38.511347544Z"
     description: A Helm chart for conntrack-stats-exporter
-    digest: 616d2cba9d6bfaa0f32731da18b9481413b08f1d8b1b6b14e61e521fe3a49f14
+    digest: 9e7ebd84f93cdab5297c5b4d12365d68eddba126769b17afe88d0a4c8552cc35
     home: https://github.com/jwkohnen/conntrack-stats-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -391,7 +391,7 @@ entries:
     - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-conntrack-stats-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-conntrack-stats-exporter-0.5.35.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-conntrack-stats-exporter-0.5.35.tgz
     version: 0.5.35
   prometheus-consul-exporter:
   - annotations:
@@ -403,9 +403,9 @@ entries:
           url: https://github.com/prometheus/consul_exporter
     apiVersion: v2
     appVersion: v0.13.0
-    created: "2026-03-26T16:25:49.839873777Z"
+    created: "2026-03-26T17:12:38.511811348Z"
     description: A Helm chart for the Prometheus Consul Exporter
-    digest: 0ef27c798229325f033bf71975053a4a9d95136e29aedb769b31db63da3a2b25
+    digest: 716aa23db91fc12b4f3b86e03d6d050fb9540e8c004574a8bffee8ca1034f9dc
     home: https://github.com/prometheus/consul_exporter
     keywords:
     - metrics
@@ -424,14 +424,14 @@ entries:
     - https://github.com/prometheus/consul_exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-consul-exporter-1.1.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-consul-exporter-1.1.1.tgz
     version: 1.1.1
   prometheus-couchdb-exporter:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-03-26T16:25:49.840253668Z"
+    created: "2026-03-26T17:12:38.512278117Z"
     description: A Helm chart to export the metrics from couchdb in Prometheus format.
-    digest: 6bb038aa427347f6c8747c77e0ca710d8d78fbf5b3757f375f25f4e5c4e4c02b
+    digest: 3c3a71d36d1e576d89f4296da4b346108d0c66c2182ba0da39297c7c01f8f1e0
     home: https://github.com/gesellix/couchdb-prometheus-exporter
     keywords:
     - couchdb-exporter
@@ -443,7 +443,7 @@ entries:
     sources:
     - https://github.com/gesellix/couchdb-prometheus-exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-couchdb-exporter-1.0.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-couchdb-exporter-1.0.1.tgz
     version: 1.0.1
   prometheus-druid-exporter:
   - annotations:
@@ -453,9 +453,9 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.11.0
-    created: "2026-03-26T16:25:49.840643897Z"
+    created: "2026-03-26T17:12:38.513017834Z"
     description: Druid exporter to monitor druid metrics with Prometheus
-    digest: c4c5f295c989890e43dc46df6094e42385ec74b4db7422be0b76acbd776f24f1
+    digest: 5736900ce3e40f0f8ed370ba9f2aee9a88dca4693cf4cd831a3e0882a30ece6b
     home: https://github.com/opstree/druid-exporter
     icon: https://github.com/opstree/druid-exporter/blob/master/static/druid-exporter-logo.svg
     keywords:
@@ -476,14 +476,14 @@ entries:
     - https://github.com/opstree/druid-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-druid-exporter-1.2.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-druid-exporter-1.2.0.tgz
     version: 1.2.0
   prometheus-elasticsearch-exporter:
   - apiVersion: v2
     appVersion: v1.10.0
-    created: "2026-03-26T16:25:49.841470473Z"
+    created: "2026-03-26T17:12:38.514660402Z"
     description: Elasticsearch stats exporter for Prometheus
-    digest: 4d9d3c4205312b3758b7f1dceb381b83962571dfa69f9dc527af467683c80bca
+    digest: fa3ea24e4bad6d7c00f51310b4a8ecfd565e949203af08ef766bf74515c45e26
     home: https://github.com/prometheus-community/elasticsearch_exporter
     keywords:
     - metrics
@@ -505,14 +505,14 @@ entries:
     - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-elasticsearch-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-elasticsearch-exporter-7.2.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-elasticsearch-exporter-7.2.1.tgz
     version: 7.2.1
   prometheus-fastly-exporter:
   - apiVersion: v2
     appVersion: v10.2.0
-    created: "2026-03-26T16:25:49.842049917Z"
+    created: "2026-03-26T17:12:38.515111262Z"
     description: A Helm chart for the Prometheus Fastly Exporter
-    digest: bef750719ea0e10e96e2336e5e7f2f3952fd546de569f35814288976591e6adb
+    digest: ac0f4877c7d1bc567f2a4a14e3ca4e9ad2308be19d6ae83bd7a758d21588beae
     home: https://github.com/fastly/fastly-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -525,14 +525,14 @@ entries:
       url: https://github.com/arslanbekov
     name: prometheus-fastly-exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-fastly-exporter-0.11.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-fastly-exporter-0.11.0.tgz
     version: 0.11.0
   prometheus-ipmi-exporter:
   - apiVersion: v2
     appVersion: v1.10.1
-    created: "2026-03-26T16:25:49.842948297Z"
+    created: "2026-03-26T17:12:38.515707822Z"
     description: This is an IPMI exporter for Prometheus.
-    digest: eab63ba19d2a894d05e1dd00872929793d24e5fd8883d66315e2f4c2602d2251
+    digest: 5fd53a598dbe65db820062bd56b6ece0f71352f6ccdd0b66b8fbc1f0e7a7dc00
     home: https://github.com/prometheus-community/ipmi_exporter
     keywords:
     - metrics
@@ -545,14 +545,14 @@ entries:
     name: prometheus-ipmi-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-ipmi-exporter-0.8.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-ipmi-exporter-0.8.0.tgz
     version: 0.8.0
   prometheus-json-exporter:
   - apiVersion: v2
     appVersion: v0.7.0
-    created: "2026-03-26T16:25:49.843617749Z"
+    created: "2026-03-26T17:12:38.516332325Z"
     description: Install prometheus-json-exporter
-    digest: d616cd06a3b30b9b74c07cb1a0d781b6ee656f9853640155992b31f6c962b67e
+    digest: 7d2a8ee3d4b67a3d27e7212241f5dcf30df79cc79784144ec4b09b561d5fe4e3
     home: https://github.com/prometheus-community/json_exporter
     keywords:
     - metric
@@ -571,7 +571,7 @@ entries:
     name: prometheus-json-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-json-exporter-0.19.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-json-exporter-0.19.2.tgz
     version: 0.19.2
   prometheus-kafka-exporter:
   - annotations:
@@ -580,7 +580,7 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-kafka-exporter
     apiVersion: v2
     appVersion: v1.9.0
-    created: "2026-03-26T16:25:49.850838276Z"
+    created: "2026-03-26T17:12:38.523748723Z"
     dependencies:
     - condition: kafka.enabled
       name: kafka
@@ -588,7 +588,7 @@ entries:
       version: 32.4.3
     description: A Helm chart to export metrics from Kafka in Prometheus format using
       kafka_exporter from https://github.com/danielqsj/kafka_exporter
-    digest: f4f97fcca1bb4fe4fdc524059fe71220e043e952de387488a59a2159fc6a7b8a
+    digest: d216c4c86472f07600d682b25ad01a53f33c45cf7692c597d31c4148dd547d8b
     home: https://github.com/danielqsj/kafka_exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -611,14 +611,14 @@ entries:
     - https://github.com/danielqsj/kafka_exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-kafka-exporter-3.0.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-kafka-exporter-3.0.1.tgz
     version: 3.0.1
   prometheus-memcached-exporter:
   - apiVersion: v2
     appVersion: v0.15.5
-    created: "2026-03-26T16:25:49.851330988Z"
+    created: "2026-03-26T17:12:38.524194122Z"
     description: Prometheus exporter for Memcached metrics
-    digest: cb223c2d5db8661ec155279a9ffae8076eb38f70ad42d79d64a000fc824a1088
+    digest: 708adac5dc2f0cf3558deadb7efb066efd7db2393b1892b1ce25c24b43d3f159
     home: https://github.com/prometheus/memcached_exporter
     keywords:
     - prometheus
@@ -632,14 +632,14 @@ entries:
     - https://github.com/prometheus/memcached_exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-memcached-exporter-0.4.5.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-memcached-exporter-0.4.5.tgz
     version: 0.4.5
   prometheus-modbus-exporter:
   - apiVersion: v2
     appVersion: 0.4.1
-    created: "2026-03-26T16:25:49.851997134Z"
+    created: "2026-03-26T17:12:38.524730681Z"
     description: A Helm chart for prometheus-modbus-exporter
-    digest: 311ec2ce67e8d517027b2ecbc9c658169b18b2229c2c61c03c24d00bb3915e93
+    digest: 4f1b13a16c89287c020dddd07b293dc101109800bccec09f969c7e578082f475
     keywords:
     - modbus
     - modbus_exporter
@@ -653,14 +653,14 @@ entries:
     name: prometheus-modbus-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-modbus-exporter-0.1.4.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-modbus-exporter-0.1.4.tgz
     version: 0.1.4
   prometheus-mongodb-exporter:
   - apiVersion: v2
     appVersion: 0.49.0
-    created: "2026-03-26T16:25:49.853384999Z"
+    created: "2026-03-26T17:12:38.525246351Z"
     description: A Prometheus exporter for MongoDB metrics
-    digest: c4d149220a65ee7afb6c72b259d787c14ae4468575a81351d995cf2ff3d6bb38
+    digest: 9fd77abbaa4dfc26b2406b2e9c01f5d216156136eedaf8a018eb0a3678650668
     home: https://github.com/percona/mongodb_exporter
     keywords:
     - exporter
@@ -678,14 +678,14 @@ entries:
     sources:
     - https://github.com/percona/mongodb_exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-mongodb-exporter-3.18.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-mongodb-exporter-3.18.0.tgz
     version: 3.18.0
   prometheus-mysql-exporter:
   - apiVersion: v1
     appVersion: v0.19.0
-    created: "2026-03-26T16:25:49.854396391Z"
+    created: "2026-03-26T17:12:38.525996708Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
-    digest: e62f74c736d2c58d93ae174b792048131294d76100deb2b4b81e9f3a4d0cc685
+    digest: a7de22b31c2a8530cd6ed2a0fbf3aa9166a2212e6b0d77feee941b59c9b40c04
     home: https://github.com/prometheus/mysqld_exporter
     maintainers:
     - email: juan.chimienti@gmail.com
@@ -698,14 +698,14 @@ entries:
     sources:
     - https://github.com/prometheus/mysqld_exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-mysql-exporter-2.13.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-mysql-exporter-2.13.0.tgz
     version: 2.13.0
   prometheus-nats-exporter:
   - apiVersion: v1
     appVersion: 0.19.2
-    created: "2026-03-26T16:25:49.854777223Z"
+    created: "2026-03-26T17:12:38.526429414Z"
     description: A Helm chart for prometheus-nats-exporter
-    digest: 96c8a605ccf5e58160358bdc6a4df1394e4d7a7587535cb7a4cf6d6f3a6d9a19
+    digest: d092c62bf2a1fe52c6fe98cd7ea62c12f8157c71fcd574aa35ca0405b498dfc3
     home: https://github.com/nats-io/prometheus-nats-exporter
     keywords:
     - nats
@@ -722,7 +722,7 @@ entries:
     sources:
     - https://github.com/nats-io/prometheus-nats-exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-nats-exporter-2.22.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-nats-exporter-2.22.1.tgz
     version: 2.22.1
   prometheus-nginx-exporter:
   - annotations:
@@ -736,14 +736,14 @@ entries:
           email: nicolas.lamirault@gmail.com
     apiVersion: v2
     appVersion: 1.5.1
-    created: "2026-03-26T16:25:49.85830467Z"
+    created: "2026-03-26T17:12:38.531409303Z"
     dependencies:
     - condition: nginx.enabled
       name: nginx
       repository: https://charts.bitnami.com/bitnami
       version: 22.6.10
     description: A Helm chart for NGINX Prometheus Exporter
-    digest: f5f8f12419a8fc089433815d1c1af0b7ea35a47527b5653cc70d852ea617da13
+    digest: 165e46f4df990028ab7dfc1b30eb28703ea9c8df3654411cd8b4e7215b9feca5
     home: https://github.com/nginxinc/nginx-prometheus-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -763,7 +763,7 @@ entries:
     - https://github.com/prometheus-community/helm-charts
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-nginx-exporter-1.20.8.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-nginx-exporter-1.20.8.tgz
     version: 1.20.8
   prometheus-node-exporter:
   - annotations:
@@ -773,9 +773,9 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 1.10.2
-    created: "2026-03-26T16:25:49.860364543Z"
+    created: "2026-03-26T17:12:38.532749608Z"
     description: A Helm chart for prometheus node-exporter
-    digest: 8bbf7bec093f2efa616e2de785b5b0a011719a53a0e9980afb0646afc035daf3
+    digest: 46aab13ec0acbc7ead09c445fb2152c140f1d961101cd18c189c47537c4f9fe9
     home: https://github.com/prometheus/node_exporter/
     icon: https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -797,7 +797,7 @@ entries:
     - https://github.com/prometheus/node_exporter/
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-node-exporter-4.52.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-node-exporter-4.52.2.tgz
     version: 4.52.2
   prometheus-operator-admission-webhook:
   - annotations:
@@ -809,9 +809,9 @@ entries:
           url: https://github.com/prometheus-operator/prometheus-operator
     apiVersion: v2
     appVersion: 0.90.1
-    created: "2026-03-26T16:25:49.861599535Z"
+    created: "2026-03-26T17:12:38.533710277Z"
     description: Prometheus Operator Admission Webhook
-    digest: 6c28d38a78097700811cc8b094f7716a2974a2a1af3578d4a3b0f86fc62d9740
+    digest: fcbf691b9383fda414ecb9f03ff462a1cb38792dae6e56fe28e7d335ae24c653
     home: https://github.com/prometheus-operator/prometheus-operator
     icon: https://github.com/prometheus-operator/prometheus-operator/raw/main/Documentation/logos/prometheus-operator-logo.png
     keywords:
@@ -829,7 +829,7 @@ entries:
     - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-operator-admission-webhook
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-operator-admission-webhook-0.37.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-operator-admission-webhook-0.37.2.tgz
     version: 0.37.2
   prometheus-operator-crds:
   - annotations:
@@ -845,14 +845,14 @@ entries:
           email: quentin.bisson@gmail.com
     apiVersion: v2
     appVersion: v0.90.1
-    created: "2026-03-26T16:25:49.876870841Z"
+    created: "2026-03-26T17:12:38.547310561Z"
     dependencies:
     - name: crds
       repository: ""
       version: 0.0.0
     description: 'A Helm chart that collects custom resource definitions (CRDs) from
       the Prometheus Operator, allowing for seamless integration with GitOps tools '
-    digest: 361f2f0181ca7fec9e8d3ad115336ee27d03036dcb3f0859c4654c0304ef3d7d
+    digest: 993d7e60fdc89d8d29f499e4d116ff3ae9c759e7f3616873beebab96802e3f2d
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
     - prometheus
@@ -876,14 +876,14 @@ entries:
     - https://github.com/prometheus-community/helm-charts
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-operator-crds-28.0.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-operator-crds-28.0.1.tgz
     version: 28.0.1
   prometheus-pgbouncer-exporter:
   - apiVersion: v2
     appVersion: v0.12.0
-    created: "2026-03-26T16:25:49.877553517Z"
+    created: "2026-03-26T17:12:38.548409447Z"
     description: A Helm chart for prometheus pgbouncer-exporter
-    digest: 21d4fbeb74084e7b9b70505a60dc198decab958887c313d05d49fbd79bd49856
+    digest: ac0e2f77de16bc0bc9876818944607460d889145e336e7880955f1c1506eb18c
     home: https://github.com/prometheus-community/pgbouncer_exporter
     keywords:
     - pgbouncer
@@ -901,7 +901,7 @@ entries:
     - https://github.com/prometheus-community/pgbouncer_exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-pgbouncer-exporter-0.10.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-pgbouncer-exporter-0.10.0.tgz
     version: 0.10.0
   prometheus-pingdom-exporter:
   - annotations:
@@ -915,9 +915,9 @@ entries:
           email: pahli88@googlemail.com
     apiVersion: v2
     appVersion: v0.5.6
-    created: "2026-03-26T16:25:49.87796668Z"
+    created: "2026-03-26T17:12:38.549237911Z"
     description: A Helm chart for Prometheus Pingdom Exporter
-    digest: f35a9675bea4f08b32ecc0533d5a947281d852533e9c62d4212189d22767e954
+    digest: 50cc68bb3705988aa736de0524e894917eba7d19c14103715b6bfebec40e70df
     home: https://github.com/kokuwaio/pingdom-exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -935,14 +935,14 @@ entries:
     - https://github.com/kokuwaio/pingdom-exporter
     - https://github.com/prometheus-community/helm-charts
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-pingdom-exporter-3.4.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-pingdom-exporter-3.4.2.tgz
     version: 3.4.2
   prometheus-pingmesh-exporter:
   - apiVersion: v2
     appVersion: v1.2.2
-    created: "2026-03-26T16:25:49.879093608Z"
+    created: "2026-03-26T17:12:38.550471708Z"
     description: Prometheus Pingmesh Exporter
-    digest: 6c4bc79efc3e2e0fb21d08bf820bcc241d86ac921908f7c24f74334cc14e512d
+    digest: 3c445f0613d05fd231eb4221b7e2f70f7dc6224857a662c152e965f8286e45da
     home: https://stack.kubeservice.cn/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -958,14 +958,14 @@ entries:
     - https://github.com/kubeservice-stack/pingmesh-agent
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-pingmesh-exporter-0.4.3.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-pingmesh-exporter-0.4.3.tgz
     version: 0.4.3
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: v0.19.1
-    created: "2026-03-26T16:25:49.879896149Z"
+    created: "2026-03-26T17:12:38.551238255Z"
     description: A Helm chart for prometheus postgres-exporter
-    digest: f91dfd43c2936a98128fe97f7d1e70e38e7b21a691c318e6dcc442a9be946e14
+    digest: ae5651fe580295a640dc51b921f0c16f4658b36eda306ccb16c32f7d03db3585
     home: https://github.com/prometheus-community/postgres_exporter
     keywords:
     - postgresql
@@ -986,7 +986,7 @@ entries:
     - https://github.com/prometheus-community/postgres_exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-postgres-exporter-7.5.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-postgres-exporter-7.5.2.tgz
     version: 7.5.2
   prometheus-pushgateway:
   - annotations:
@@ -996,9 +996,9 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v1.11.2
-    created: "2026-03-26T16:25:49.880786344Z"
+    created: "2026-03-26T17:12:38.552106432Z"
     description: A Helm chart for prometheus pushgateway
-    digest: 104dc3a572ab1dcbb3364cf989d2675a517088297b6d421ec6c8b1d1a976e806
+    digest: f4095486fcc17a8708d9bdb107d529a442fe223b63b31eb0dea06d85ee0c28c4
     home: https://github.com/prometheus/pushgateway
     keywords:
     - pushgateway
@@ -1018,14 +1018,14 @@ entries:
     - https://github.com/prometheus/pushgateway
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-pushgateway-3.6.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-pushgateway-3.6.0.tgz
     version: 3.6.0
   prometheus-rabbitmq-exporter:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2026-03-26T16:25:49.88142581Z"
+    created: "2026-03-26T17:12:38.552877066Z"
     description: Rabbitmq metrics exporter for prometheus
-    digest: ebaea98949ee0af64593c1dd44ec051722c8cecc18dd0254c3963683cbea0697
+    digest: 0f145f027f29028095063307d7fe330e483074fea7a1b4825ec9c1c8b6c12942
     home: https://github.com/kbudde/rabbitmq_exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     maintainers:
@@ -1045,14 +1045,14 @@ entries:
     sources:
     - https://github.com/kbudde/rabbitmq_exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-rabbitmq-exporter-2.1.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-rabbitmq-exporter-2.1.2.tgz
     version: 2.1.2
   prometheus-redis-exporter:
   - apiVersion: v2
     appVersion: v1.82.0
-    created: "2026-03-26T16:25:49.882079422Z"
+    created: "2026-03-26T17:12:38.55370599Z"
     description: Prometheus exporter for Redis metrics
-    digest: 7be88e8c84e0560f76ffd3d76df1dbca7e7f4cea22f2f38689e6651c4ae05a36
+    digest: 99e294dbbea04f732fc67901055e7225121e5da287078e79ed476d0e7496a495
     home: https://github.com/oliver006/redis_exporter
     keywords:
     - prometheus
@@ -1069,14 +1069,14 @@ entries:
     - https://github.com/oliver006/redis_exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-redis-exporter-6.22.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-redis-exporter-6.22.0.tgz
     version: 6.22.0
   prometheus-smartctl-exporter:
   - apiVersion: v2
     appVersion: v0.14.0
-    created: "2026-03-26T16:25:49.882790372Z"
+    created: "2026-03-26T17:12:38.55430738Z"
     description: A Helm chart for Kubernetes
-    digest: be09d99f519c6570004d933895b6a7d32507fd1baa0ec6de465d55e799dc0ebb
+    digest: 93f6cccd40bcff54e088708d60055671bf29f862fb1013870f5f04af5fede740
     home: https://github.com/prometheus-community/smartctl_exporter
     maintainers:
     - name: kfox1111
@@ -1089,14 +1089,14 @@ entries:
     - https://github.com/prometheus-community/smartctl_exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-smartctl-exporter-0.16.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-smartctl-exporter-0.16.0.tgz
     version: 0.16.0
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: v0.30.1
-    created: "2026-03-26T16:25:49.88447061Z"
+    created: "2026-03-26T17:12:38.555163934Z"
     description: Prometheus SNMP Exporter
-    digest: 39f2cae4a1de7a1cecf25a052aeaece14a9627942def0fa38e2b8e7cb8d471a1
+    digest: 332d832b65ea3890cd6857d910a72c51dbba378c559b191d0483770c9bf72a21
     home: https://github.com/prometheus/snmp_exporter
     keywords:
     - prometheus
@@ -1113,14 +1113,14 @@ entries:
     sources:
     - https://github.com/prometheus/snmp_exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-snmp-exporter-9.13.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-snmp-exporter-9.13.1.tgz
     version: 9.13.1
   prometheus-sql-exporter:
   - apiVersion: v2
     appVersion: v0.8
-    created: "2026-03-26T16:25:49.885137056Z"
+    created: "2026-03-26T17:12:38.55681188Z"
     description: Prometheus SQL Exporter
-    digest: 570b0b2205282e7f665d0da9f2597f844c70f987a381928aff422b70ea1b2ed4
+    digest: 42e296c08cd52565520c4c14e22433d3ebcdcca4b7b3328d0dcf05807cbcaf78
     home: https://github.com/justwatchcom/sql_exporter
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -1136,14 +1136,14 @@ entries:
     - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-sql-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-sql-exporter-0.5.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-sql-exporter-0.5.0.tgz
     version: 0.5.0
   prometheus-stackdriver-exporter:
   - apiVersion: v1
     appVersion: v0.18.0
-    created: "2026-03-26T16:25:49.885799134Z"
+    created: "2026-03-26T17:12:38.557517404Z"
     description: Stackdriver exporter for Prometheus
-    digest: 2c5f12adfceddb491d7bb5f9a48a31ae865399054092c5ae754fd724c2bcd144
+    digest: d74e7bada0a276bea17ec10b71aea993e23b6c966ba542ad9e2528e788672407
     home: https://www.stackdriver.com/
     keywords:
     - metrics
@@ -1158,7 +1158,7 @@ entries:
     - https://github.com/prometheus-community/stackdriver_exporter
     - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-stackdriver-exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-stackdriver-exporter-4.12.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-stackdriver-exporter-4.12.2.tgz
     version: 4.12.2
   prometheus-statsd-exporter:
   - annotations:
@@ -1167,9 +1167,9 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
     apiVersion: v2
     appVersion: v0.28.0
-    created: "2026-03-26T16:25:49.886393726Z"
+    created: "2026-03-26T17:12:38.558104547Z"
     description: A Helm chart for prometheus stats-exporter
-    digest: 4a9cf0661e8e30f277464eb01c090da3b31511839f2ec8486d2744d1b640a5a0
+    digest: 00a223268d292e244001130a5310e766b7b284923f7704c1129342263395c572
     home: https://github.com/prometheus/statsd_exporter
     keywords:
     - statsd
@@ -1183,14 +1183,14 @@ entries:
     sources:
     - https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-statsd-exporter-1.0.0.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-statsd-exporter-1.0.0.tgz
     version: 1.0.0
   prometheus-systemd-exporter:
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2026-03-26T16:25:49.887046758Z"
+    created: "2026-03-26T17:12:38.558741302Z"
     description: A Helm chart for prometheus systemd-exporter
-    digest: cd5c281f042f963f65c78af35ae6dc851691edbaf3fcb2d104c09d718a8c701c
+    digest: c192a7f764a177c3a190f1bd1d55ba5e367a6d155c932c5f31f73a803ae54f94
     home: https://github.com/prometheus-community/systemd_exporter
     maintainers:
     - email: 19607336+maxime1907@users.noreply.github.com
@@ -1201,14 +1201,14 @@ entries:
     - https://github.com/prometheus-community/systemd_exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-systemd-exporter-0.5.2.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-systemd-exporter-0.5.2.tgz
     version: 0.5.2
   prometheus-to-sd:
   - apiVersion: v1
     appVersion: v0.9.2
-    created: "2026-03-26T16:25:49.887324798Z"
+    created: "2026-03-26T17:12:38.558960421Z"
     description: Scrape metrics stored in prometheus format and push them to the Stackdriver
-    digest: 35c693c2b36dd706614bf0414b3e636a722d9105af35057759faf9b80c60ca81
+    digest: 67ec7a74383553bb4ce93fce5eb0fef27b58dd2a4b0207384f6caeb086fc0e5d
     home: https://github.com/GoogleCloudPlatform/k8s-stackdriver/tree/master/prometheus-to-sd
     keywords:
     - prometheus
@@ -1219,14 +1219,14 @@ entries:
       url: https://github.com/acondrat
     name: prometheus-to-sd
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-to-sd-0.5.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-to-sd-0.5.1.tgz
     version: 0.5.1
   prometheus-windows-exporter:
   - apiVersion: v2
     appVersion: 0.31.5
-    created: "2026-03-26T16:25:49.888099206Z"
+    created: "2026-03-26T17:12:38.559802008Z"
     description: A Helm chart for prometheus windows-exporter
-    digest: a9af795757fbbc87eb94f9f5449a1b29718a4322019e24ffb13d871f7d53a2db
+    digest: 22b146b6e49c2bde9db2b1fbe4988cb1bc58158bb193f5eee4cdb3b63554b89f
     home: https://github.com/prometheus-community/windows_exporter/
     icon: https://raw.githubusercontent.com/cncf/artwork/master/prometheus/icon/color/prometheus-icon-color.svg
     keywords:
@@ -1243,14 +1243,14 @@ entries:
     - https://github.com/prometheus-community/windows_exporter/
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-windows-exporter-0.12.5.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-windows-exporter-0.12.5.tgz
     version: 0.12.5
   prometheus-yet-another-cloudwatch-exporter:
   - apiVersion: v2
     appVersion: v0.63.0
-    created: "2026-03-26T16:25:49.888721189Z"
+    created: "2026-03-26T17:12:38.56037806Z"
     description: Yace - Yet Another CloudWatch Exporter
-    digest: 0570cd4e967da9c7f4aa2db129c20020d0cdbd1180318824e384b8bce8cda2da
+    digest: e5d992e8ccc41e4abc2b05981cbba80ed41f919375c151a0f902848843c51855
     home: https://github.com/prometheus-community/helm-charts
     keywords:
     - aws
@@ -1271,6 +1271,6 @@ entries:
     - https://github.com/prometheus-community/yet-another-cloudwatch-exporter
     type: application
     urls:
-    - https://raw.githubusercontent.com/laerdallabs/livekit-helm/gh-pages/prometheus-yet-another-cloudwatch-exporter-0.42.1.tgz
+    - https://raw.githubusercontent.com/laerdallabs/prometheus-helm-charts/gh-pages/prometheus-yet-another-cloudwatch-exporter-0.42.1.tgz
     version: 0.42.1
-generated: "2026-03-26T16:25:49.78943647Z"
+generated: "2026-03-26T17:12:38.46504254Z"
