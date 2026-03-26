@@ -198,6 +198,11 @@ rules:
   #     containerLabel: container
   #   window: 3m
 
+# Configuration for the custom metrics APIService object
+customMetricsApiService:
+  # Specifies whether the chart should create the custom metrics APIService
+  create: true
+
 service:
   annotations: {}
   port: 443

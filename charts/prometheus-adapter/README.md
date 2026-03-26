@@ -95,6 +95,10 @@ rules:
       matches: ""
       as: "my_custom_metric"
     metricsQuery: sum(<<.Series>>{<<.LabelMatchers>>}) by (<<.GroupBy>>)
+
+# Disable creation of the custom metrics APIService object
+customMetricsApiService:
+  create: false
 ```
 
 ### External Metrics
