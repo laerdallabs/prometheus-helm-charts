@@ -28,7 +28,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install Helm
-        uses: azure/setup-helm@v1
+        uses: azure/setup-helm@v5.0.0
 
       - name: Set version to -prerelease on non-major branches
         if: github.ref != 'refs/heads/main'
@@ -54,7 +54,6 @@ jobs:
       - name: Package Helm Charts
         shell: bash
         run: |
-          helm init
           find . -type f -name 'Chart.yaml' | sed -r 's|/[^/]+$||' | sort | uniq | xargs -L 1 helm dep up
           for d in `find ./src/* -type d -maxdepth 0 -not -name examples` ; do
             echo "$d"
